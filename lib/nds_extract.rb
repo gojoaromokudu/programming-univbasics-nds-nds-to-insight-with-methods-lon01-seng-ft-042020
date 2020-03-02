@@ -25,7 +25,7 @@ puts nds
 
 result = {}
 puts gross_for_director(directors_database[2])
-puts nds[0][:movies]
+puts nds[0][:name]
 
 result[nds[0][:name]] = gross_for_director(directors_database[2])
 
