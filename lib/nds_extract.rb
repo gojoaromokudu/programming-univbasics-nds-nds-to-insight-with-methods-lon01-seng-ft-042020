@@ -20,10 +20,12 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
- result = {}
-director_index = 0
-while director_index < 3 do
-puts gross_for_director(nds[0])
+pp nds
+
+# result = {}
+#director_index = 0
+#while director_index < 3 do
+#puts gross_for_director(nds[0])
 #director_index += 1 
 #end
 
