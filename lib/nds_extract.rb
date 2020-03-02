@@ -27,8 +27,7 @@ result = {}
 puts gross_for_director(directors_database[2])
 puts nds[0][:name]
 
-result[nds[0][:name]] = gross_for_director(directors_database[2])
-
+result[nds[2][:name]] = gross_for_director(directors_database[2])
 
 #result[:name] = gross_for_director(nds)
 #director_index = 0
