@@ -20,7 +20,7 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
-pp nds
+puts nds
 
 
 # result = {}
