@@ -21,8 +21,10 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
  result = {}
-
-puts gross_for_director(nds[0])
+while director_index < 3 do
+puts gross_for_director(nds[director_index])
+director_index += 1 
+end
 
 #  pp directors_database
 #puts directors_database[0]
