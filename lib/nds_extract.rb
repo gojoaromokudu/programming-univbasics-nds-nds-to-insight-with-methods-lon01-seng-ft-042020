@@ -31,7 +31,7 @@ def directors_totals(nds)
     grosses = 0 
     while movie_index < 5 do
   #    grosses += nds[director_index][:movies][movie_index][:worldwide_gross]
-      puts nds[director_index]
+      puts nds[director_index][:movies][movie_index][:worldwide_gross]
       movie_index += 1 
     end
   #  result[[nds[director_index][:name]]] = grosses
