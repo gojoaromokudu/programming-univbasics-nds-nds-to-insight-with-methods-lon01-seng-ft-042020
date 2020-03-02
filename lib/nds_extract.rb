@@ -28,7 +28,7 @@ puts gross_for_director(directors_database[2])
 puts nds[0][:name]
 
 result[nds[0][:name]] = gross_for_director(directors_database[2])
-
+result[nds[0][:name]]
 #result[:name] = gross_for_director(nds)
 #director_index = 0
 #while director_index < 3 do
