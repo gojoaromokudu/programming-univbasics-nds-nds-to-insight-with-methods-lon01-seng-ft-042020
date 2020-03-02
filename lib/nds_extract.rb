@@ -22,7 +22,7 @@ end
 def directors_totals(nds)
  result = {}
 
-puts nds[0]
+puts gross_for_director(nds[0])
 
 #  pp directors_database
 #puts directors_database[0]
