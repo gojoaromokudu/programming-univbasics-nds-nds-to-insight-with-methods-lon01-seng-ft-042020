@@ -24,7 +24,7 @@ puts nds
 puts nds
 puts nds
 result = {}
-puts gross_for_director(directors_database[0])
+puts gross_for_director(directors_database[2])
 #result[:name] = gross_for_director(nds)
 #director_index = 0
 #while director_index < 3 do
