@@ -21,7 +21,7 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
 pp nds
-puts gross_for_director(nds)
+puts gross_for_director(nds[0])
 
 # result = {}
 #director_index = 0
