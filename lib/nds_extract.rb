@@ -23,8 +23,9 @@ def directors_totals(nds)
 puts nds
 puts nds
 puts nds
-
-# result = {}
+result = {}
+puts gross_for_director(nds)
+#result[:name] = gross_for_director(nds)
 #director_index = 0
 #while director_index < 3 do
 #puts gross_for_director(nds[0])
