@@ -20,21 +20,25 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
+ result = {}
+
+puts nds[0]
+
 #  pp directors_database
 #puts directors_database[0]
 #puts director_data
-  result = {}
+ 
   
-  director_index = 0 
-  while director_index < nds.length do
-    movie_index = 0
-    grosses = 0 
-    while movie_index < nds[director_index][:movies].length do
+ # director_index = 0 
+ # while director_index < nds.length do
+ #   movie_index = 0
+  #  grosses = 0 
+  #  while movie_index < nds[director_index][:movies].length do
   #    grosses += nds[director_index][:movies][movie_index][:worldwide_gross]
-      puts nds[director_index][:movies][movie_index][:worldwide_gross]
-      movie_index += 1 
-    end
+ #     puts nds[director_index][:movies][movie_index][:worldwide_gross]
+  #    movie_index += 1 
+ #   end
   #  result[[nds[director_index][:name]]] = grosses
-  end
+ # end
  # result
 end
